@@ -17,6 +17,11 @@
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
     <quarkus.platform.version>1.12.1.Final</quarkus.platform.version>
     <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
+
+     <sonar.projectKey>ccarrenovi_do400-quality-checks</sonar.projectKey>
+  <sonar.organization>ccarrenovi</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+     <sonar.scanner.force-deprecated-java-version>true</sonar.scanner.force-deprecated-java-version>
   </properties>
   <dependencyManagement>
     <dependencies>
